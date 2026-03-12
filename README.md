@@ -56,18 +56,16 @@ First, the headset must be ready to receive unofficial applications:
 
 ### . Installing the APK (Final Version / Rendering)
 
-To install the game permanently:
+To install the game:
 
-**A. Packaging (Creating the file)**
+**A. Installation of the game**
 
-1.  In Unreal Engine, go to **Platforms > Android**.
-2.  Select **Package Project**.
-3.  Choose a destination folder on your PC.
-4.  Wait for the compilation to finish (“Build Successful”).
+1.  Install the .zip file from the Releases.
+2.  Unzip the file.
 
 **B. Installation on the headset**
 
-1.  Open the folder where the project was packaged.
+1.  Open the unzip folder where APK installtion is.
 2.  You will find a `.command` file named `Install_Finalmap-arm64.command`.
 3.  Connect the headset via USB (make sure it is turned on).
 4.  Double-click on the **`.command`** file. A command window will open and install the APK on the headset.
@@ -83,9 +81,9 @@ To install the game permanently:
 
 This project was carried out by a team of 5 people:
 
-- **Thomas CORDE**: Game Design, Level Design, Gameplay Development (Blueprints), VR & Interactions
+- **[Thomas CORDE](https://github.com/ThomasC-Banks)**: Game Design, Level Design, Gameplay Development (Blueprints), VR & Interactions
 - **David JUDEA**: Game Design, Level Design, Environments, 3D, Lighting, Sound, Testing
-- **Yassine FALIL**: VR & Interactions, Environments, 3D, Lighting, Testing
+- **[Yassine FALIL](https://github.com/yassay78)**: VR & Interactions, Environments, 3D, Lighting, Testing
 - **Andrea GUEZO-TAVARES**: 3D, Lighting, Sound, Testing
 - **Sarah OSMANI**: Sound, Presentation
 
